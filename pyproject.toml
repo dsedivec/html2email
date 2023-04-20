@@ -1,0 +1,11 @@
+[project]
+name = "html2email"
+version = "1.0.0"
+description = "Convert HTML for inclusion in email"
+dependencies = [
+  "lxml",
+  "premailer",
+]
+
+[project.scripts]
+html2email = "html2email:main"
